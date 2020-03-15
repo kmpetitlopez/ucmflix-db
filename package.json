@@ -4,8 +4,16 @@
   "description": "Database management of ucm-flix",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrateDB": "sequelize db:migrate --migrations-path=src/migrations --env=development --config=config.json",
+    "undoMigrations": "sequelize db:migrate:undo:all --migrations-path=src/migrations --env=development --config=config.json",
+    "seedDB": "sequelize db:seed:all --config=config.json --env=development --seeders-path=src/seeders",
+    "unseedDB": "sequelize db:seed:undo:all --config=config.json --env=development --seeders-path=src/seeders"
   },
+  "files": [
+    "spec/fixtures",
+    "src/"
+  ],
   "author": "Kira Petit",
   "license": "ISC",
   "dependencies": {
