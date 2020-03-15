@@ -30,7 +30,7 @@
   whodidthat="! f() { LINE=$1 FILE=$2 REVS=$3; for commit in $(git rev-list -n $REVS HEAD $FILE); do git blame -n -L$LINE,+1 $commit -- $FILE; done; }; f"
 
   ; usage: git cim "My commit message" <other commit params>
-  cim = "! f() { MESSAGE=\"$1\"; shift; PROJECT=$(cat .jira-project); BRANCH=`git rev-parse --abbrev-ref HEAD`; ISSUE=`echo \"$BRANCH\" | grep -E '.*\\/'$PROJECT'[0-9]+.*' | cut -d \"/\" -f 2 | cut -d \"-\" -f -2`; if [ -n \"${ISSUE}\" ]; then MESSAGE=\"$ISSUE $MESSAGE\"; fi; git commit -m\"$MESSAGE\" $@; }; f"
+  cim = "! f() { MESSAGE=\"$1\"; git commit -m\"$MESSAGE\" $@; }; f"
   dev = "! git checkout develop; git pull origin develop"
   devandback = "! f() { BRANCH=`git rev-parse --abbrev-ref HEAD`; git dev; git checkout $BRANCH; }; f"
   prod = "! git checkout master; git pull origin master"
@@ -47,4 +47,4 @@
   mergedev = "! git dev; git checkout -; git update; git merge develop"
 
   ; Aux alias (used by other alias)
-  branch-name = "! f() { BRANCH=\"$(cat .jira-project)$1\"; if [ -n \"${2}\" ]; then BRANCH=\"$BRANCH-$2\"; fi; echo $BRANCH; }; f"
+  branch-name = "! f() { BRANCH=\"$1\"; if [ -n \"${2}\" ]; then BRANCH=\"$BRANCH-$2\"; fi; echo $BRANCH; }; f"
