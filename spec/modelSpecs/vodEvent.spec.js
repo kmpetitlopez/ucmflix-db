@@ -58,20 +58,6 @@ describe('VodEventModel', () => {
             }
         });
 
-        it('should throw an error when content is a master', async () => {
-            const contentData = await db.content.create(fixtures.content(constants.CONTENT_TYPES.master));
-            vodEventData = fixtures.vodEvent();
-            vodEventData.contentId = contentData.id;
-
-            try {
-                storedVodEvent = await db.vodEvent.create(vodEventData);
-                expect(true).toBeFalsy();
-            } catch (err) {
-                expect(err).toBeDefined();
-                expect(storedVodEvent).toBeUndefined();
-            }
-        });
-
         it('should create the vod when both dates are null', async () => {
             vodEventData = fixtures.vodEvent(fixtures.content(constants.CONTENT_TYPES.movie));
             vodEventData.windowStartTime = null;

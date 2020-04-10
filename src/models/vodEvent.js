@@ -1,7 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-    const constants = require('../../src/utils/constants'),
-        moment = require('moment'),
+    const moment = require('moment'),
         VodEvent = sequelize.define(
             'vodEvent',
             {
@@ -23,14 +22,6 @@ module.exports = (sequelize, DataTypes) => {
                 hooks: {
                     beforeValidate: async (instance) => {
                         if (instance) {
-                            if (instance.contentId) {
-                                const content = await sequelize.models.content.findById(instance.contentId);
-
-                                if (content && content.type === constants.CONTENT_TYPES.master) {
-                                    throw new sequelize.ValidationError('\'contentId\' can\'t refer master content');
-                                }
-                            }
-
                             if (instance.windowStartTime && instance.windowEndTime) {
                                 if (moment.utc(instance.windowStartTime).isSameOrAfter(moment.utc(instance.windowEndTime))) {
                                     throw new sequelize.ValidationError('Error in dates');

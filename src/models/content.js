@@ -15,9 +15,7 @@ module.exports = (sequelize, DataTypes) => {
                     type: DataTypes.STRING,
                     allowNull: false
                 },
-                seriesTitle: DataTypes.TEXT,
                 description: DataTypes.TEXT,
-                shortDescription: DataTypes.TEXT,
                 year: {
                     type: DataTypes.INTEGER,
                     validate: {
@@ -109,10 +107,6 @@ module.exports = (sequelize, DataTypes) => {
                             foreignKey: 'contentId'
                         });
 
-                        models.content.hasMany(models.asset, {
-                            foreignKey: 'contentId'
-                        });
-
                         models.content.belongsToMany(models.category, {
                             through: models.categoryReference
                         });
@@ -126,14 +120,6 @@ module.exports = (sequelize, DataTypes) => {
 
                         // Associations for episodes
                         models.content.belongsTo(models.content.scope('series'), {as: 'serie', foreignKey: 'masterId'});
-
-                        models.content.belongsToMany(models.image, {
-                            through: models.imageReference
-                        });
-
-                        models.content.hasMany(models.imageReference, {
-                            foreignKey: 'contentId'
-                        });
                     }
                 },
                 hooks: {}

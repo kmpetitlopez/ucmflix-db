@@ -10,8 +10,7 @@ async function cleanAll() {
         },
         cleanups = [
             'content',
-            'category',
-            'image'
+            'category'
         ];
 
     for (const c of cleanups) {

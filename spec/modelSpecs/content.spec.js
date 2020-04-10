@@ -40,7 +40,6 @@ describe('ContentModel', () => {
                 'type',
                 'title',
                 'description',
-                'shortDescription',
                 'year',
                 'genre',
                 'duration',

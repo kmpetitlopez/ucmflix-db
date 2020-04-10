@@ -19,9 +19,6 @@ module.exports = {
             description: {
                 type: Sequelize.TEXT
             },
-            shortDescription: {
-                type: Sequelize.TEXT
-            },
             year: {
                 type: Sequelize.INTEGER
             },
@@ -50,10 +47,7 @@ module.exports = {
                 type: Sequelize.INTEGER
             },
             seasonNumber: {
-                type: Sequelize.STRING
-            },
-            seriesTitle: {
-                type: Sequelize.STRING
+                type: Sequelize.INTEGER
             },
             createdAt: {
                 allowNull: false,
