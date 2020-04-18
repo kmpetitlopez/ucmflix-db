@@ -49,6 +49,16 @@ module.exports = {
             seasonNumber: {
                 type: Sequelize.INTEGER
             },
+            imageId: {
+                type: Sequelize.INTEGER,
+                references: {
+                    model: 'images',
+                    key: 'id'
+                },
+                onUpdate: 'cascade',
+                onDelete: 'cascade',
+                allowNull: true
+            },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

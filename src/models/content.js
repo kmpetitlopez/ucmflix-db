@@ -120,6 +120,8 @@ module.exports = (sequelize, DataTypes) => {
 
                         // Associations for episodes
                         models.content.belongsTo(models.content.scope('series'), {as: 'serie', foreignKey: 'masterId'});
+
+                        models.content.belongsTo(models.image);
                     }
                 },
                 hooks: {}
