@@ -42,7 +42,7 @@ module.exports = (sequelize, DataTypes) => {
                     },
                     beforeCreate: (instance) => {
                         if (instance && !instance.startDate) {
-                            instance.startDate = moment.utc().startOf('day');
+                            instance.startDate = moment.utc().startOf('day').format();
                         }
                     }
                 }

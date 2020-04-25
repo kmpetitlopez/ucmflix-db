@@ -1,0 +1,100 @@
+[
+    {
+		"id" : 1,
+		"name" : "Redes de comunicaciones",
+		"uri" : "/static/images/redesdecomunicaciones.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+    },
+    {
+		"id" : 2,
+		"name" : "Arquitectura de redes",
+		"uri" : "/static/images/arquitecturaderedes.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 3,
+		"name" : "Capa física",
+		"uri" : "/static/images/capafisica.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 4,
+		"name" : "Enlace de Datos",
+		"uri" : "/static/images/enlacededatos.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 5,
+		"name" : "Redes de Área Local",
+		"uri" : "/static/images/redesdearealocal.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 7,
+		"name" : "Modelo Von Newmann",
+		"uri" : "/static/images/vonnewman.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 8,
+		"name" : "Arquitectura del repertorio de instrucciones",
+		"uri" : "/static/images/repertoriodeinstrucciones.png",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 9,
+		"name" : "Subsistema de entrada/salida",
+		"uri" : "/static/images/entradasalida.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 10,
+		"name" : "Subsistema de entrada/salida 2",
+		"uri" : "/static/images/entradasalida2.png",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 12,
+		"name" : "Diseño del procesador",
+		"uri" : "/static/images/procesador.png",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 13,
+		"name" : "Jerarquía de memoria",
+		"uri" : "/static/images/memoria.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 14,
+		"name" : "Modulación",
+		"uri" : "/static/images/modulacion.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 15,
+		"name" : "Modulación Analógica",
+		"uri" : "/static/images/modulacionanalogica.jpg",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	},
+    {
+		"id" : 18,
+		"name" : "Modulación Digital",
+		"uri" : "/static/images/modulaciondigital.png",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+	}
+]

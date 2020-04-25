@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Redes y Servicios de Telecomunicación I",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+    }, {
+        "id": 2,
+        "name": "Estructura de Computadores",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+    }, {
+        "id": 3,
+        "name": "Teoría de la comunicación",
+        "createdAt": "2020-04-01",
+        "updatedAt": "2020-04-01"
+    }
+]

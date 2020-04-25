@@ -1,0 +1,74 @@
+[
+    {
+		"contentId" : 1,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+    },
+    {
+		"contentId" : 2,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 3,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 4,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 5,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 6,
+		"categoryId": 1,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 7,
+		"categoryId": 2,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 8,
+		"categoryId": 2,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 9,
+		"categoryId": 2,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 12,
+		"categoryId": 2,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 13,
+		"categoryId": 2,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	},
+    {
+		"contentId" : 14,
+		"categoryId": 3,
+    "createdAt": "2020-04-01",
+    "updatedAt": "2020-04-01"
+	}
+]
