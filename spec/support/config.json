@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "ucmflix_test",
-    "password": "ucmflix_test",
-    "database": "ucmflix_test",
+    "username": "ucmflix",
+    "password": "ucmflix",
+    "database": "ucmflix",
     "host": "localhost",
     "port": "3306",
     "dialect": "mysql",

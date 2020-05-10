@@ -1,21 +1,20 @@
 {
-    "development": {
-      "username": "ucmflix_test",
-      "password": "ucmflix_test",
-      "database": "ucmflix_test",
-      "host": "localhost",
-      "port": "3306",
-      "dialect": "mysql",
-      "storage": "mysql",
-      "logging": false,
-      "retry": {
-        "max": 3,
-        "timeout": 62000,
-        "match": [
-          "DEADLOCK",
-          "TIMEOUT"
-        ]
-      }
+  "development": {
+    "username": "ucmflix",
+    "password": "ucmflix",
+    "database": "ucmflix",
+    "host": "localhost",
+    "port": "3306",
+    "dialect": "mysql",
+    "storage": "mysql",
+    "logging": false,
+    "retry": {
+      "max": 3,
+      "timeout": 62000,
+      "match": [
+        "DEADLOCK",
+        "TIMEOUT"
+      ]
     }
   }
-  
+}
