@@ -10,7 +10,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 1,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
     },
@@ -25,7 +25,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 2,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -40,7 +40,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 3,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -55,7 +55,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 4,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -70,7 +70,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 5,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -85,7 +85,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : null,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -100,7 +100,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 7,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -115,7 +115,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 8,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -130,7 +130,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 9,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -148,7 +148,7 @@
 		"episodeNumber" : 1,
 		"seasonNumber" : 1,
 		"imageId" : 10,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -166,7 +166,7 @@
 		"episodeNumber" : 2,
 		"seasonNumber" : 1,
 		"imageId" : 10,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -181,7 +181,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 12,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -196,7 +196,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 13,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -211,7 +211,7 @@
 		"parentalRating" : "SC",
 		"country" : "ESP",
 		"imageId" : 14,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -229,7 +229,7 @@
 		"episodeNumber" : 1,
 		"seasonNumber" : 1,
 		"imageId" : 15,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -247,7 +247,7 @@
 		"episodeNumber" : 2,
 		"seasonNumber" : 1,
 		"imageId" : 15,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -265,7 +265,7 @@
 		"episodeNumber" : 3,
 		"seasonNumber" : 1,
 		"imageId" : 15,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -283,7 +283,7 @@
 		"episodeNumber" : 1,
 		"seasonNumber" : 2,
 		"imageId" : 18,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -301,7 +301,7 @@
 		"episodeNumber" : 2,
 		"seasonNumber" : 2,
 		"imageId" : 18,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	},
@@ -319,7 +319,7 @@
 		"episodeNumber" : 3,
 		"seasonNumber" : 2,
 		"imageId" : 18,
-		"asset": "/videos/example/manifest.mpd",
+		"asset": "/static/videos/example/manifest.mpd",
 		"createdAt": "2020-04-01",
         "updatedAt": "2020-04-01"
 	}
