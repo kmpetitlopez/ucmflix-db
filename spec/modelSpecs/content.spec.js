@@ -44,7 +44,8 @@ describe('ContentModel', () => {
                 'genre',
                 'duration',
                 'parentalRating',
-                'country'
+                'country',
+                'asset'
             ]);
         });
 

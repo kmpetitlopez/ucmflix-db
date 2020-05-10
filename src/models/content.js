@@ -76,7 +76,8 @@ module.exports = (sequelize, DataTypes) => {
                     }
                 },
                 seasonNumber: DataTypes.INTEGER,
-                episodeNumber: DataTypes.INTEGER
+                episodeNumber: DataTypes.INTEGER,
+                asset: DataTypes.STRING
             },
             {
                 scopes: {

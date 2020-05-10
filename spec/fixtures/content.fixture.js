@@ -14,7 +14,8 @@ casual.define('content', (type) => {
         duration: casual.integer(1, 10000),
         color: casual.integer(0, 100000),
         parentalRating: CONSTANTS.SPANISH_PARENTAL_RATING.SC,
-        country: casual.random_element(['USA', 'ESP', 'GBR', 'DEU'])
+        country: casual.random_element(['USA', 'ESP', 'GBR', 'DEU']),
+        asset: casual.word
     };
 
     if (content.type === CONSTANTS.CONTENT_TYPES.episode) {
