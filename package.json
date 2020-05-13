@@ -7,11 +7,14 @@
     "migrateDB": "sequelize db:migrate --migrations-path=src/migrations --env=development --config=config.json",
     "undoMigrations": "sequelize db:migrate:undo:all --migrations-path=src/migrations --env=development --config=config.json",
     "seedDB": "sequelize db:seed:all --config=config.json --env=development --seeders-path=src/seeders",
-    "unseedDB": "sequelize db:seed:undo:all --config=config.json --env=development --seeders-path=src/seeders"
+    "unseedDB": "sequelize db:seed:undo:all --config=config.json --env=development --seeders-path=src/seeders",
+    "resetDB": "mysql -u root -p < scripts/reset_database.sql"
   },
   "author": "Kira Petit",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "casual": "^1.6.2",
+    "crypto": "^1.0.1",
     "i18n-iso-countries": "^5.1.0",
     "moment": "^2.24.0",
     "mysql2": "^2.1.0",

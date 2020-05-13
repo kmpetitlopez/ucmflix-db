@@ -29,6 +29,12 @@ or
 mysql -u root -p < scripts/reset_database.sql
 ```
 
+or
+
+```
+npm run resetDB
+```
+
 - Install dependencies
 
 ```
