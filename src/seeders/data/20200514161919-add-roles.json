@@ -1,0 +1,14 @@
+[
+    {
+		"id" : 1,
+		"name": "ADMIN",
+        "createdAt": "2020-05-14",
+        "updatedAt": "2020-05-14"
+    },
+    {
+		"id" : 2,
+		"name": "USER",
+        "createdAt": "2020-05-14",
+        "updatedAt": "2020-05-14"
+	}
+]

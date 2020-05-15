@@ -43,7 +43,7 @@ module.exports = {
             }
         });
 
-        await queryInterface.addIndex('users', ['email'], {
+        await queryInterface.addIndex('users', ['username'], {
             indicesType: 'UNIQUE'
         });
   },
