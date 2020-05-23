@@ -4,6 +4,7 @@
 		"email": "test-admin@fake.com",
 		"password": "cambiame123",
 		"roleId": 1,
+        "confirmAt": "2020-05-14",
         "createdAt": "2020-05-14",
         "updatedAt": "2020-05-14"
     },
@@ -12,6 +13,7 @@
 		"email": "test-user@fake.com",
 		"password": "cambiame123",
 		"roleId": 2,
+        "confirmAt": "2020-05-14",
         "createdAt": "2020-05-14",
         "updatedAt": "2020-05-14"
     }

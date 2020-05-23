@@ -1,10 +1,5 @@
 'use strict';
 
-/**
- * Function that initializes the Database model and connects to the DB
- * @param  {string} [configFilePath] - config file with parameters to connect to the DB
- * @return {db} - Object referencing all models and a sequelize instance
- */
 function initialize(configFilePath) {
     const fs = require('fs'),
         path = require('path'),

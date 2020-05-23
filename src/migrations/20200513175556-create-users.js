@@ -33,6 +33,10 @@ module.exports = {
                 onUpdate: 'cascade',
                 onDelete: 'cascade'
             },
+            confirmAt: {
+                allowNull: true,
+                type: Sequelize.DATE
+            },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE

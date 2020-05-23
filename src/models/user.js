@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt'),
     crypto = require('crypto');
 
 module.exports = function(sequelize, DataTypes) {
-    var User = sequelize.define(
+    const User = sequelize.define(
         'user',
         {
             username: {
@@ -18,12 +18,19 @@ module.exports = function(sequelize, DataTypes) {
             password: {
                 type: DataTypes.STRING,
                 allowNull: true
+            },
+            confirmAt: {
+                allowNull: true,
+                type: DataTypes.DATE
             }
         },
         {
             classMethods: {
                 associate: function(models) {
                     models.user.belongsTo(models.role);
+                    models.user.hasMany(models.favoriteContent, {
+                        foreignKey: 'contentId'
+                    });
                 }
             },
             hooks: {

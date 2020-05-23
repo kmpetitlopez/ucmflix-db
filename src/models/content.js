@@ -123,6 +123,10 @@ module.exports = (sequelize, DataTypes) => {
                         models.content.belongsTo(models.content.scope('series'), {as: 'serie', foreignKey: 'masterId'});
 
                         models.content.belongsTo(models.image);
+
+                        models.content.hasMany(models.favoriteContent, {
+                            foreignKey: 'contentId'
+                        });
                     }
                 },
                 hooks: {}
