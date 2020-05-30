@@ -51,7 +51,7 @@ module.exports = {
             indicesType: 'UNIQUE'
         });
   },
-  down: function(queryInterface/* , Sequelize*/) {
+  down: function(queryInterface) {
       return queryInterface.dropTable('users');
   }
 };

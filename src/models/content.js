@@ -128,9 +128,9 @@ module.exports = (sequelize, DataTypes) => {
                             foreignKey: 'contentId'
                         });
                     }
-                },
-                hooks: {}
+                }
             }
         );
+    
     return Content;
 };

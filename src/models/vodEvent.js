@@ -37,5 +37,6 @@ module.exports = (sequelize, DataTypes) => {
                 }
             }
         );
+    
     return VodEvent;
 };

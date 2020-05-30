@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = (sequelize, DataTypes) => {
     const Role = sequelize.define('role', {
         name: {
             type: DataTypes.STRING,
@@ -8,10 +8,11 @@ module.exports = function(sequelize, DataTypes) {
         }
     }, {
         classMethods: {
-            associate: function(models) {
+            associate: (models) => {
                 models.role.hasMany(models.user);
             }
         }
     });
+    
     return Role;
 };

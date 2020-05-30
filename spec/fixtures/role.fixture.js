@@ -2,7 +2,7 @@
 
 const casual = require('casual');
 
-casual.define('role', function(users) {
+casual.define('role', (users) => {
     return {
         name: casual.name,
 

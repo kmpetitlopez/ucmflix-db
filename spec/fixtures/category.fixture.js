@@ -1,7 +1,7 @@
 'use strict';
 
 const casual = require('casual'),
-    moment=require('moment');
+    moment = require('moment');
 
 casual.define('category', (name) => {
     const startDate = casual.moment,

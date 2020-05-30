@@ -7,8 +7,7 @@ module.exports = (sequelize, DataTypes) => {
                 models.categoryReference.belongsTo(models.category);
                 models.categoryReference.belongsTo(models.content);
             }
-        },
-        hooks: {}
+        }
     });
 
     return CategoryReference;

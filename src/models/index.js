@@ -20,7 +20,7 @@ function initialize(configFilePath) {
             db[model.name] = model;
         });
 
-    Object.keys(db).forEach(function(modelName) {
+    Object.keys(db).forEach((modelName) => {
         if (db[modelName].options &&
             db[modelName].options.classMethods &&
             db[modelName].options.classMethods.associate) {

@@ -2,7 +2,6 @@
 
 const db = require('../../src/index');
 
-// eslint-disable-next-line require-jsdoc
 async function cleanAll() {
     const options = {
             where: {},

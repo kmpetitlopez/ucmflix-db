@@ -3,7 +3,7 @@
 const bcrypt = require('bcrypt'),
     crypto = require('crypto');
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = (sequelize, DataTypes) => {
     const User = sequelize.define(
         'user',
         {
@@ -26,7 +26,7 @@ module.exports = function(sequelize, DataTypes) {
         },
         {
             classMethods: {
-                associate: function(models) {
+                associate: (models) => {
                     models.user.belongsTo(models.role);
                     models.user.hasMany(models.favoriteContent, {
                         foreignKey: 'contentId'
@@ -57,5 +57,6 @@ module.exports = function(sequelize, DataTypes) {
             }
         }
     );
+
     return User;
 };

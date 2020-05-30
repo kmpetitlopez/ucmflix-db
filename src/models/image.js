@@ -12,13 +12,12 @@ module.exports = (sequelize, DataTypes) => {
         }
     }, {
         classMethods: {
-            associate: function(models) {
+            associate: (models) => {
                 models.image.hasMany(models.content, {
                     foreignKey: 'imageId'
                 });
             }
-        },
-        hooks: {}
+        }
     });
 
     return Image;

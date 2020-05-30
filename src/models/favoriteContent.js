@@ -1,12 +1,12 @@
 'use strict';
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = (sequelize, DataTypes) => {
     const FavoriteContent = sequelize.define(
         'favoriteContent',
         {},
         {
             classMethods: {
-                associate: function(models) {
+                associate: (models) => {
                     models.favoriteContent.belongsTo(models.user);
                     models.favoriteContent.belongsTo(models.content);
                 }
