@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
                     type: DataTypes.STRING,
                     allowNull: false
                 },
-                description: DataTypes.TEXT,
+                description: DataTypes.STRING(200),
                 year: {
                     type: DataTypes.INTEGER,
                     validate: {

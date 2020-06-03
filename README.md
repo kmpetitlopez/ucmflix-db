@@ -93,3 +93,5 @@ npm test
 - [moment](https://github.com/moment/moment)
 - [sequelize](https://github.com/sequelize/sequelize)
 - [sequelize-fixtures](https://github.com/domasx2/sequelize-fixtures)
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js)
+- [mysql2](https://github.com/sidorares/node-mysql2)

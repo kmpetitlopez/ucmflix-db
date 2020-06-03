@@ -18,7 +18,7 @@ module.exports = {
                 type: Sequelize.TEXT
             },
             description: {
-                type: Sequelize.TEXT
+                type: Sequelize.STRING(200)
             },
             year: {
                 type: Sequelize.INTEGER
